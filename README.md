@@ -1,4 +1,4 @@
-# asn2cidr
+# x2cidr
 This tool searches for ASNs, resolves their CIDR blocks and writes them to a file.
 
 Using an inclusive and/or exclusive filter it retrieves all matching ASNs from ```cidr-report.org```.
