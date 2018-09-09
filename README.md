@@ -1,5 +1,6 @@
 # x2cidr
-This tool searches for ASNs, resolves their CIDR blocks and writes them to a file.
+## asn2cidr
+Searches for ASNs, resolves their CIDR blocks and writes them to a file.
 
 Using an inclusive and/or exclusive filter it retrieves all matching ASNs from ```cidr-report.org```.
 Then it resolves the ASN's CIDR blocks by querying the RADb whois server and writes the results to a file.
