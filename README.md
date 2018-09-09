@@ -21,3 +21,19 @@ EXAMPLES:
   asn2cidr.py -e exclude.txt -i include.txt
   asn2cidr.py -e exclude.txt -i include.txt -o file.txt -T 50 -mc
 ```
+## ip2cidr
+Resolves the CIDR blocks of IPs by querying the RADb whois server and writes them to a file.
+
+```
+USAGE: ip2cidr.py [options]
+
+OPTIONS:
+  -i INPUTFILE  IP input file
+  -o OUTPUT     output file (optional, default=output.txt)
+  -T THREADS    amount of threads for whois lookups (optional, default=10)
+  -h            show this help and exit
+  
+EXAMPLES:
+  ip2cidr.py -i ips.txt
+  ip2cidr.py -i ips.txt -o file.txt -T 50
+```
