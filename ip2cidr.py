@@ -99,7 +99,7 @@ try:
         for line in tqdm(lines):
             f.write(line.strip()+'\n')
 
-    print('\n> done: '+str(len(lines))+' CIDR blocks written to '+output_file)
+    print('\n> done: '+str(len(lines))+' CIDR block'+('s' if len(lines)>1 else '')+' written to '+output_file)
 
 except (KeyboardInterrupt, SystemExit):
     os._exit(0)
